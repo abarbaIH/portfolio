@@ -44,7 +44,7 @@ export const projectsData = [
         image: crazyFrog,
         title: "The Crazy Frog Game",
         category: "frontend",
-        projectLink: "https://lourdesgonzalezt.github.io/Game/",
+        projectLink: "https://crazy-frog-game.netlify.app/",
         description: "Proyecto módulo 1 Ironhack. Videojuego de plataformas para navegadores web.",
         tools: [
             "Javascript",
