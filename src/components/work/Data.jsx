@@ -2,6 +2,7 @@ import crazyFrog from "../../assets/crazyFrogGame.jpg"
 import musicEvents from "../../assets/musicEventsApp.jpg"
 import musicTeams from "../../assets/musicTeamsApp.jpg"
 import packSnak from "../../assets/packSnackSL.jpg"
+import todo from "../../assets/to-do.jpg"
 
 export const projectsData = [
     {
@@ -10,7 +11,7 @@ export const projectsData = [
         title: "Music Teams App",
         category: "fullstack",
         projectLink: "https://musicteamsapp.netlify.app/",
-        description: "Proyect módulo 3 Ironhack. Aplicación web full MERN que consiste en una red social que pone en contactos músicos con salas de ensayo para poder quedar para tocar con otros músicos.",
+        description: "Proyecto módulo 3 Ironhack. Aplicación web full MERN que consiste en una red social que pone en contactos músicos con salas de ensayo para poder quedar para tocar con otros músicos.",
         tools: [
             "React",
             "Javascript",
@@ -59,13 +60,30 @@ export const projectsData = [
         title: "Pack Snack DSS",
         category: "data",
         projectLink: "https://www.inesem.es/articulos-investigacion/sistema-soporte-lineas-produccion",
-        description: "Proyecto final Master Big Data. Aplicación para medir tiempos de producción de una planta de envasado y tratar los datos obtenidos para la ayuda en la toma de decisiones",
+        description: "Proyecto final Master Big Data. Aplicación para medir tiempos de producción de una planta de envasado y tratar los datos obtenidos para la ayuda en la toma de decisiones.",
         tools: [
             "Python",
             "Sql",
             "R"
         ]
     },
+
+    {
+        id: 5,
+        image: todo,
+        title: "TO-DO",
+        category: "frontend",
+        projectLink: "https://abarba-react-todo.netlify.app/",
+        description: "Proyect Frontend Mentor. Aplicación web para registrar y organizar tareas pendientes del día a día.",
+        tools: [
+            "React",
+            "Javascript",
+            "CSS",
+            "HTML5",
+            "Tailwind"
+        ]
+
+    }
 
 ];
 
