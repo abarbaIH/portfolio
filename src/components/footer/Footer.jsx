@@ -25,11 +25,11 @@ const Footer = () => {
                         <i className="uil uil-instagram"></i>
                     </a> */}
 
-                    <a href="https://www.linkedin.com/in/alvaro-barba/" className="footer__social-link" target="_blank">
+                    <a href="https://www.linkedin.com/in/alvaro-barba/" className="footer__social-link" target="_blank" rel="noreferrer">
                         <i className="uil uil-linkedin"></i>
                     </a>
 
-                    <a href="https://github.com/abarbaIH" className="footer__social-link" target="_blank">
+                    <a href="https://github.com/abarbaIH" className="footer__social-link" target="_blank" rel="noreferrer">
                         <i className="uil uil-github-alt"></i>
                     </a>
                 </div>
