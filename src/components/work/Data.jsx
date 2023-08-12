@@ -3,6 +3,7 @@ import musicEvents from "../../assets/musicEventsApp.jpg"
 import musicTeams from "../../assets/musicTeamsApp.jpg"
 import packSnak from "../../assets/packSnackSL.jpg"
 import todo from "../../assets/to-do.jpg"
+import petAppointment from '../../assets/Pet Appointment.jpg'
 
 export const projectsData = [
     {
@@ -74,13 +75,28 @@ export const projectsData = [
         title: "TO-DO",
         category: "frontend",
         projectLink: "https://abarba-react-todo.netlify.app/",
-        description: "Proyect Frontend Mentor. Aplicación web para registrar y organizar tareas pendientes del día a día.",
+        description: "Proyecto Frontend Mentor. Aplicación web para registrar y organizar tareas pendientes del día a día.",
         tools: [
             "React",
             "Javascript",
             "CSS",
             "HTML5",
             "Tailwind"
+        ]
+
+    },
+
+    {
+        id: 6,
+        image: petAppointment,
+        title: "Pet Appointment",
+        category: "frontend",
+        projectLink: "https://citas-veterinarias-admin.netlify.app/",
+        description: "Proyecto Curso JS Moderno. Aplicación web para administrar citas pediátricas.",
+        tools: [
+            "Javascript",
+            "CSS",
+            "HTML5"
         ]
 
     }
