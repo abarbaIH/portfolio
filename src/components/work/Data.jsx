@@ -4,6 +4,11 @@ import musicTeams from "../../assets/musicTeamsApp.jpg"
 import packSnak from "../../assets/packSnackSL.jpg"
 import todo from "../../assets/to-do.jpg"
 import petAppointment from '../../assets/Pet Appointment.jpg'
+import imagesSearch from '../../assets/imagesSearch.jpg'
+import weatherSearch from '../../assets/weatherSearch.jpg'
+import cryptoSearch from '../../assets/cryptoSearch.jpg'
+import recipesSearch from '../../assets/recipesSearch.jpg'
+
 
 export const projectsData = [
     {
@@ -93,6 +98,66 @@ export const projectsData = [
         category: "frontend",
         projectLink: "https://citas-veterinarias-admin.netlify.app/",
         description: "Proyecto Curso JS Moderno. Aplicación web para administrar citas pediátricas.",
+        tools: [
+            "Javascript",
+            "CSS",
+            "HTML5"
+        ]
+
+    },
+
+    {
+        id: 7,
+        image: imagesSearch,
+        title: "Images Search",
+        category: "frontend",
+        projectLink: "https://images-search-abarba.netlify.app/",
+        description: "Proyecto Curso JS Moderno. Aplicación web para buscar imágenes usando la API de Pixabay.",
+        tools: [
+            "Javascript",
+            "CSS",
+            "HTML5"
+        ]
+
+    },
+
+    {
+        id: 8,
+        image: recipesSearch,
+        title: "Recipe Search",
+        category: "frontend",
+        projectLink: "https://recipe-search-abarba.netlify.app/",
+        description: "Proyecto Curso JS Moderno. Aplicación web para buscar recetas usando la API The Meal DB.",
+        tools: [
+            "Javascript",
+            "CSS",
+            "HTML5"
+        ]
+
+    },
+
+    {
+        id: 9,
+        image: cryptoSearch,
+        title: "Crypto Search",
+        category: "frontend",
+        projectLink: "https://crypto-search-abarba.netlify.app/",
+        description: "Proyecto Curso JS Moderno. Aplicación web para cotizar en tiempo real criptomonedas usando la API Cryptoccompare.",
+        tools: [
+            "Javascript",
+            "CSS",
+            "HTML5"
+        ]
+
+    },
+
+    {
+        id: 10,
+        image: weatherSearch,
+        title: "Weather Search",
+        category: "frontend",
+        projectLink: "https://weather-search-abarba.netlify.app/",
+        description: "Proyecto Curso JS Moderno. Aplicación web para chequear temperaturas de diferentes ciudades usando la API Openweathermap.",
         tools: [
             "Javascript",
             "CSS",
