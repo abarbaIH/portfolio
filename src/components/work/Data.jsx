@@ -8,6 +8,7 @@ import imagesSearch from '../../assets/imagesSearch.jpg'
 import weatherSearch from '../../assets/weatherSearch.jpg'
 import cryptoSearch from '../../assets/cryptoSearch.jpg'
 import recipesSearch from '../../assets/recipesSearch.jpg'
+import loanEstimator from '../../assets/loanEstimator.jpg'
 
 
 export const projectsData = [
@@ -164,6 +165,20 @@ export const projectsData = [
             "HTML5"
         ]
 
+    },
+    {
+        id: 11,
+        image: loanEstimator,
+        title: "Loan Estimator",
+        category: "frontend",
+        projectLink: "https://loan-estimator-abarba.netlify.app/",
+        description: "Proyecto Curso JS Moderno. Aplicación web para calcular préstamos en función de la cantidad y el plazo.",
+        tools: [
+            "Vue",
+            "Javascript",
+            "TailwindCSS",
+            "HTML5"
+        ]
     }
 
 ];
