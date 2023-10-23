@@ -9,6 +9,9 @@ import weatherSearch from '../../assets/weatherSearch.jpg'
 import cryptoSearch from '../../assets/cryptoSearch.jpg'
 import recipesSearch from '../../assets/recipesSearch.jpg'
 import loanEstimator from '../../assets/loanEstimator.jpg'
+import cyLWildfireTracker from '../../assets/cyLWildfireTracker.jpg'
+import ufChileApp from '../../assets/ufChileApp.jpg'
+
 
 
 export const projectsData = [
@@ -175,6 +178,34 @@ export const projectsData = [
         description: "Proyecto Curso JS Moderno. Aplicación web para calcular préstamos en función de la cantidad y el plazo.",
         tools: [
             "Vue",
+            "Javascript",
+            "TailwindCSS",
+            "HTML5"
+        ]
+    },
+    {
+        id: 12,
+        image: cyLWildfireTracker,
+        title: "Loan CyL Wildfire Tracker",
+        category: "frontend",
+        projectLink: "https://abarba-wildfire-tracker.netlify.app/",
+        description: "SPA que ofrece información acerca de incendios forestales situados en la Comunidad de Castilla y León usando la API Datos Abiertos JCYL.",
+        tools: [
+            "React",
+            "Javascript",
+            "TailwindCSS",
+            "HTML5"
+        ]
+    },
+    {
+        id: 13,
+        image: ufChileApp,
+        title: "UF Chile App",
+        category: "frontend",
+        projectLink: "https://ufchileapp.netlify.app/",
+        description: "SPA que ofrece información acerca del indicador de Unidad de Fomento en el país de Chile.",
+        tools: [
+            "React",
             "Javascript",
             "TailwindCSS",
             "HTML5"
